@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to top right,rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url('https://www.pcworld.com/wp-content/uploads/2024/12/Netflix-Hintergrund.jpg?quality=50&strip=all');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 10vh;
+    width: 10vw;
+    position: absolute;
+    top:10px;
+    left: 160px;
+}
+.nav-container{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:50px;
+    gap: 20px;
+    right: 160px;
+}
+.input-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 25px;
+}
+h5{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+h6{
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+.language{
+    height: 6vh;
+    width: 8vw;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+}
+.email{
+    height: 6vh;
+    width: 20vw;
+    padding: 10px;
+    font-size: 24px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    border: oldlace 0.5px solid;
+}
+.signin{
+    height: 6vh;
+    width: 10vw;
+    padding: 10px;
+    font-size: 16px;
+    background-color: red;
+    border-radius: 5px;
+    border: red 0.5px solid;
+    color: white;
+    cursor: pointer;
+}
+.start{
+    width: 10.5vw;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: red;;
+    border-radius: 5px;
+    border: red 0.5px solid;
+    color: white;
+    cursor: pointer;
+}
